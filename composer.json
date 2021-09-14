@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "beberlei/assert": "^3.3"
+        "beberlei/assert": "^3.3",
+        "adbario/php-dot-notation": "^2.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.16",
