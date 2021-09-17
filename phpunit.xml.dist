@@ -16,7 +16,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="PB CQRS component tests">
+        <testsuite name="PB First Aid component tests">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
