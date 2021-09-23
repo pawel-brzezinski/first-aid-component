@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace PB\Component\FirstAid\Assertion;
 
-use Assert\Assertion as BaseAssertion;
-use Assert\AssertionFailedException;
+use Assert\{Assertion as BaseAssertion, AssertionFailedException};
 
 /**
  * @author Paweł Brzeziński <pawel.brzezinski@smartint.pl>
@@ -21,7 +20,12 @@ class Assertion extends BaseAssertion
      * @param int $minLength
      * @param string|callable|null $message
      * @param string|null $propertyPath
+     *
      * @return bool
+     *
+     * @throws AssertionFailedException
+     *
+     * @noinspection PhpDocRedundantThrowsInspection
      */
     public static function password(string $value, int $minLength, $message = null, string $propertyPath = null): bool
     {
