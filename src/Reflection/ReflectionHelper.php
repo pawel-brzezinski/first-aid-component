@@ -15,7 +15,7 @@ use ReflectionProperty;
  * @author Wojciech Brzeziński <wojciech.brzezinski@smartint.pl>
  * @author Paweł Brzeziński <pawel.brzezinski@smartint.pl>
  */
-final class ReflectionHelper
+class ReflectionHelper
 {
     /**
      * Returns new reflection of given class.
